@@ -1,8 +1,11 @@
-create database agenda;
+create database campeonatonacional;
 
-create table contatos(
+create table times(
 
 id int not null auto_increment primary key,
 nome varchar(40),
-idade int,
-dataCadastro date)
+estado varchar(40),
+titulos int,
+rebaixamentos int,
+torcedores int,
+mascote varchar(40))
